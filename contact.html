@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="navbar-brand">
+            Nurken Serdakov
+        </a>
+        <div class="navbar-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About me </a>
+            <a href="#" style="color:rgb(117, 98, 224);">Contact</a>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <div class="connect-me">
+            <h1>Connect with me:</h1>
+            <p>Satisfied with my cv? Please contact me</p>
+            <i class="fa-brands fa-instagram fa-xl" style="color: rgb(117, 98, 224);"></i>
+            <i class="fa-brands fa-telegram fa-xl" style="color: rgb(117, 98, 224);"></i>
+            <i class="fa-brands fa-whatsapp fa-xl" style="color: rgb(117, 98, 224);"></i>
+        </div>
+        <div class="contact-form">
+            <h2>Contact me,let's make magic together</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

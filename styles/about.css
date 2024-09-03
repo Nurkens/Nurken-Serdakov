@@ -1,0 +1,111 @@
+body{
+    background-color: #1A1A29;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181824;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(117, 98, 224);
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    margin-right: 5%;
+}
+
+.navbar .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+.navbar .navbar-links a:hover {
+    opacity: 50%;
+}
+
+.about-me {
+    color: white;
+    padding-left: 150px;
+}
+
+.about-me h1 {
+    color: rgb(117, 98, 224);
+}
+
+.about-text {
+    margin-bottom: 20px;
+}
+
+.about-nums {
+    display: flex;
+    align-items: center;
+}
+
+.about-exp {
+    display: flex;
+    align-items: center; 
+    margin-right: 50px;
+}
+
+.about-exp i {
+    margin-right: 10px; 
+}
+
+.about-info {
+    font-size:20px;
+}
+
+.services {
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left:150px;
+    padding-top:20px;
+}
+.container-purple {
+    width: 341px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+    background-color: #1A1A29; 
+    padding: 20px;    
+    border-radius: 6%;
+    border: 2px solid rgb(117, 98, 224); 
+    margin-bottom:20px;
+    margin-right: 20px;
+}
+.container-white{
+    width: 341px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+    background-color: #1A1A29; 
+    padding: 20px;    
+    border-radius: 6%;
+    border: 2px solid white; 
+    margin-bottom:20px;
+    margin-right: 20px;
+}
+.container-white h2{
+    color:rgb(117, 98, 224);
+}

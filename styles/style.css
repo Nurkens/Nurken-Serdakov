@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181824;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(117, 98, 224);
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    margin-right: 5%;
+}
+
+.navbar .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+.navbar .navbar-links a:hover {
+    opacity: 50%;
+}
+
+.main {
+    display: flex;
+    background-color: #1A1A29;
+    color: white;
+    
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.main-img {
+    margin-right: 10%;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+.main-img-style {
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.main-info {
+    margin-left: 10%;
+    padding-top: 150px;
+}
+
+.main-info a {
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+}
+
+.info-btn {
+    background-color: rgb(117, 98, 224);
+    padding: 8px 10px;
+    margin-right: 15px;
+    border-radius: 10%;
+    border: none;
+    
+    text-decoration: none;
+}
+
+.info-btn:hover {
+    background-color: rgb(90, 75, 200); 
+    
+}
