@@ -1,94 +1,98 @@
-
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #1A1A29;
+    background-color: #1A1A29 !important; 
 }
 
 .navbar .navbar-brand {
-    text-decoration: none;
-    font-size: 1.5em;
+    text-decoration: none !important;
+    font-size: 1.5em !important;
+    color: rgb(117, 98, 224) !important;
 }
 
 .navbar .navbar-nav .nav-link {
-    text-decoration: none;
-    margin-left: 30px;
-    font-size: 1em;
+    text-decoration: none !important;
+    margin-left: 30px !important;
+    font-size: 1em !important;
+    color: white !important;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    opacity: 50%;
+    opacity: 50% !important;
 }
 
 .about-me {
-    color: white;
-    padding-left: 150px;
+    color: white !important;
+    padding-left: 150px !important;
 }
 
 .about-me h1 {
-    color: rgb(117, 98, 224);
+    color: rgb(117, 98, 224) !important;
 }
 
 .about-text {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 
 .about-nums {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .about-exp {
-    display: flex;
-    align-items: center; 
-    margin-right: 50px;
+    display: flex !important;
+    align-items: center !important; 
+    margin-right: 50px !important;
 }
 
 .about-exp i {
-    margin-right: 10px; 
+    margin-right: 10px !important;
 }
 
 .about-info {
-    font-size:20px;
+    font-size: 20px !important;
 }
 
 .services {
-    color: white;
-    display: flex;
-    flex-wrap: wrap; 
-    padding-left:150px;
-    padding-top:20px;
+    color: white !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding-left: 150px !important;
+    padding-top: 20px !important;
 }
+
 .container-purple {
-    width: 341px;
-    height: 338px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
-    text-align: center;      
-    background-color: #1A1A29; 
-    padding: 20px;    
-    border-radius: 6%;
-    border: 2px solid rgb(117, 98, 224); 
-    margin-bottom:20px;
-    margin-right: 20px;
+    width: 341px !important;
+    height: 338px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-color: #1A1A29 !important;
+    padding: 20px !important;
+    border-radius: 6% !important;
+    border: 2px solid rgb(117, 98, 224) !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
 }
-.container-white{
-    width: 341px;
-    height: 338px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
-    text-align: center;      
-    background-color: #1A1A29; 
-    padding: 20px;    
-    border-radius: 6%;
-    border: 2px solid white; 
-    margin-bottom:20px;
-    margin-right: 20px;
+
+.container-white {
+    width: 341px !important;
+    height: 338px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-color: #1A1A29 !important;
+    padding: 20px !important;
+    border-radius: 6% !important;
+    border: 2px solid white !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
 }
-.container-white h2{
-    color:rgb(117, 98, 224);
+
+.container-white h2 {
+    color: rgb(117, 98, 224) !important;
 }
