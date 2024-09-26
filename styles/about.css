@@ -1,102 +1,94 @@
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #1A1A29 !important; 
+    background-color: #1A1A29;
 }
 
 .navbar .navbar-brand {
-    text-decoration: none !important;
-    font-size: 1.5em !important;
-    color: rgb(117, 98, 224) !important;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(117, 98, 224);
 }
 
 .navbar .navbar-nav .nav-link {
-    text-decoration: none !important;
-    margin-left: 30px !important;
-    font-size: 1em !important;
-    color: white !important;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1em;
+    color: white;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    opacity: 50% !important;
+    opacity: 0.5;
 }
 
 .about-me {
-    color: white !important;
-    padding-left: 150px !important;
+    color: white;
+    padding-left: 150px;
 }
 
 .about-me h1 {
-    color: rgb(117, 98, 224) !important;
+    color: rgb(117, 98, 224);
 }
 
 .about-text {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px;
 }
 
 .about-nums {
-    display: flex !important;
-    align-items: center !important;
+    display: flex;
+    align-items: center;
 }
 
 .about-exp {
-    display: flex !important;
-    align-items: center !important; 
-    margin-right: 50px !important;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .about-exp i {
-    margin-right: 10px !important;
+    margin-right: 10px;
 }
 
 .about-info {
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 .services {
-    color: white !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    padding-left: 150px !important;
-    padding-top: 20px !important;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.container-purple,
+.container-white {
+    width: 341px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1A1A29;
+    padding: 20px;
+    border-radius: 6%;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .container-purple {
-    width: 341px !important;
-    height: 338px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-    background-color: #1A1A29 !important;
-    padding: 20px !important;
-    border-radius: 6% !important;
-    border: 2px solid rgb(117, 98, 224) !important;
-    margin-bottom: 20px !important;
-    margin-right: 20px !important;
+    border: 2px solid rgb(117, 98, 224);
 }
 
 .container-white {
-    width: 341px !important;
-    height: 338px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-    background-color: #1A1A29 !important;
-    padding: 20px !important;
-    border-radius: 6% !important;
-    border: 2px solid white !important;
-    margin-bottom: 20px !important;
-    margin-right: 20px !important;
+    border: 2px solid white;
 }
 
 .container-white h2 {
-    color: rgb(117, 98, 224) !important;
+    color: rgb(117, 98, 224);
 }
 
 .about-link {
-    color: rgb(117, 98, 224) !important;
+    color: rgb(117, 98, 224);
 }
