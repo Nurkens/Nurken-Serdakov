@@ -4,6 +4,10 @@ body {
     background-color: #1A1A29;
 }
 
+.navbar {
+    background-color: #181824; 
+}
+
 .navbar .navbar-brand {
     text-decoration: none;
     font-size: 1.5em;
@@ -24,6 +28,7 @@ body {
 .about-me {
     color: white;
     padding-left: 150px;
+    background-color: #1A1A29;
 }
 
 .about-me h1 {
@@ -59,6 +64,7 @@ body {
     flex-wrap: wrap;
     padding-left: 150px;
     padding-top: 20px;
+    background-color: #1A1A29;
 }
 
 .container-purple,
@@ -75,6 +81,7 @@ body {
     border-radius: 6%;
     margin-bottom: 20px;
     margin-right: 20px;
+    background-color: #1A1A29;
 }
 
 .container-purple {
