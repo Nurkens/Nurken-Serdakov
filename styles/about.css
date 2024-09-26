@@ -103,3 +103,7 @@ body {
 .about-link {
     color: rgb(117, 98, 224);
 }
+.container-purple,
+.container-white  i {
+    margin-bottom:20px;
+}
